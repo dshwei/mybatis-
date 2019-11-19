@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: base-mscreen-server
+  datasource:
+    #####mysql#####
+    name: mysqldatasource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.28.19.29:3306/tencent_monitor?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true&useSSL=false&serverTimezone=GMT
+    username: root
+    password: Vxi@2016
